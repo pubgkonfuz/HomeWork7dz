@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">HomeWork7</string>
+    <string name="info">Sunday, 19 May 2019 | 4:30PM</string>
+    <string name="arrow_up">↑</string>
+    <string name="mumbai">Mumbai,India</string>
+    <string name="sunny">Sunny</string>
+    <string name="therty_there">33</string>
+    <string name="gradus">°C</string>
+    <string name="therty_five">35°C</string>
+    <string name="twenty_seven">27°C</string>
+    <string name="arrow_dawn">↓</string>
+    <string name="fourty_nine">49%</string>
+    <string name="humid">Humidity</string>
+    <string name="mBar">1,007mBar</string>
+    <string name="press">Pressure</string>
+    <string name="km_h">23 km/h</string>
+    <string name="wind">Wind</string>
+    <string name="six_there">6:03 AM</string>
+    <string name="sunrise">Sunrise</string>
+    <string name="pm">7:05 PM</string>
+    <string name="sunset">Sunset</string>
+    <string name="therteen_h">13h 1m</string>
+    <string name="daytime">Daytime</string>
+    <string name="mon">Mon, 21</string>
+    <string name="twenty_six">26°C</string>
+    <string name="tue">Tue, 22</string>
+    <string name="wed">Wed, 22</string>
+    <string name="therty_four">34°C</string>
+    <string name="twenty_nine">29°C</string>
+
+</resources>
