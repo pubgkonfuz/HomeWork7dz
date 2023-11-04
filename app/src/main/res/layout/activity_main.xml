@@ -18,7 +18,7 @@
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="700dp"
+        android:layout_height="720dp"
         app:cardCornerRadius="40dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@id/iv_ava">
@@ -28,13 +28,12 @@
             android:layout_height="match_parent">
 
             <TextView
+                style="@style/Base.Text.Small"
                 android:id="@+id/tv_info"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
                 android:layout_marginStart="22dp"
                 android:layout_marginTop="18dp"
+                android:textSize="14sp"
                 android:text="@string/info"
-                android:textColor="@color/gray"
                 app:layout_constraintEnd_toStartOf="@id/btn_geolacation"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -65,7 +64,7 @@
 
             <TextView
                 android:id="@+id/tv_sun"
-               style="@style/Text.Large"
+               style="@style/Base.Text.Large"
                 android:layout_marginStart="50dp"
                 android:text="@string/sunny"
                 app:layout_constraintStart_toStartOf="parent"
@@ -96,7 +95,7 @@
 
             <TextView
                 android:id="@+id/tv_temp2"
-                style="@style/Text.Large"
+                style="@style/Base.Text.Large"
                 android:layout_marginStart="60dp"
                 android:layout_marginTop="20dp"
                 android:text="@string/therty_five"
@@ -107,7 +106,7 @@
 
             <TextView
                 android:id="@+id/tv_temp3"
-                style="@style/Text.Large"
+                style="@style/Base.Text.Large"
                 android:layout_marginTop="16dp"
                 android:text="@string/arrow_up"
                 android:textColor="@color/gray"
@@ -116,7 +115,7 @@
 
             <TextView
                 android:id="@+id/tv_temp4"
-                style="@style/Text.Large"
+                style="@style/Base.Text.Large"
                 android:layout_marginStart="60dp"
                 android:layout_marginTop="5dp"
                 android:text="@string/twenty_seven"
@@ -127,7 +126,7 @@
 
             <TextView
                 android:id="@+id/tv_dawn"
-                style="@style/Text.Large"
+                style="@style/Base.Text.Large"
                 android:layout_marginTop="5dp"
                 android:text="@string/arrow_dawn"
                 android:textColor="@color/gray"
@@ -135,18 +134,17 @@
                 app:layout_constraintTop_toBottomOf="@id/tv_temp3" />
 
             <ImageView
+                style="@style/Image"
                 android:id="@+id/iv_capli"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
                 android:layout_marginStart="50dp"
-                android:layout_marginTop="50dp"
+                android:layout_marginTop="56dp"
                 android:src="@drawable/capli"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/tv_sun" />
 
             <TextView
                 android:id="@+id/tv_number2"
-               style="@style/Text.arrow"
+               style="@style/Base.Text.Large"
                 android:layout_marginStart="50dp"
                 android:layout_marginTop="14dp"
                 android:text="@string/fourty_nine"
@@ -154,19 +152,16 @@
                 app:layout_constraintTop_toBottomOf="@id/iv_capli" />
 
             <TextView
+                style="@style/Base.Text.Small"
                 android:id="@+id/tv_humi"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:layout_marginStart="46dp"
                 android:text="@string/humid"
-                android:textColor="@color/gray"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/tv_number2" />
 
             <ImageView
                 android:id="@+id/iv_speek"
-                android:layout_width="44dp"
-                android:layout_height="44dp"
+                style="@style/Image"
                 android:layout_marginTop="40dp"
                 android:src="@drawable/barometer"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -175,7 +170,7 @@
 
             <TextView
                 android:id="@+id/tv_num"
-                style="@style/Text.Large"
+                style="@style/Base.Text.Large"
                 android:layout_marginTop="14dp"
                 android:text="@string/mBar"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -184,18 +179,15 @@
 
             <TextView
                 android:id="@+id/tv_presu"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/Base.Text.Small"
                 android:text="@string/press"
-                android:textColor="@color/gray"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/tv_num" />
 
             <ImageView
                 android:id="@+id/iv_vozduh"
-                android:layout_width="44dp"
-                android:layout_height="44dp"
+                style="@style/Image"
                 android:layout_marginStart="100dp"
                 android:layout_marginTop="60dp"
                 android:src="@drawable/vozduh"
@@ -204,7 +196,7 @@
 
             <TextView
                 android:id="@+id/tv_num2"
-                style="@style/Text.Large"
+                style="@style/Base.Text.Large"
                 android:layout_marginTop="14dp"
                 android:layout_marginEnd="24dp"
                 android:text="@string/km_h"
@@ -213,18 +205,15 @@
 
             <TextView
                 android:id="@+id/tv_wind"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginEnd="50dp"
+                style="@style/Base.Text.Small"
+                android:layout_marginEnd="46dp"
                 android:text="@string/wind"
-                android:textColor="@color/gray"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/tv_num2" />
 
             <ImageView
                 android:id="@+id/iv_suni"
-                android:layout_width="44dp"
-                android:layout_height="44dp"
+                style="@style/Image"
                 android:layout_marginStart="50dp"
                 android:layout_marginTop="24dp"
                 android:src="@drawable/suni"
@@ -233,7 +222,7 @@
 
             <TextView
                 android:id="@+id/tv_six"
-                style="@style/Text.Large"
+                style="@style/Base.Text.Large"
                 android:layout_marginStart="36dp"
                 android:layout_marginTop="14dp"
                 android:text="@string/six_there"
@@ -242,18 +231,15 @@
 
             <TextView
                 android:id="@+id/tv_sunr"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="44dp"
+                style="@style/Base.Text.Small"
+                android:layout_marginStart="46dp"
                 android:text="@string/sunrise"
-                android:textColor="@color/gray"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/tv_six" />
 
             <ImageView
                 android:id="@+id/iv_cun"
-                android:layout_width="44dp"
-                android:layout_height="44dp"
+                style="@style/Image"
                 android:layout_marginTop="22dp"
                 android:src="@drawable/cun"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -262,7 +248,7 @@
 
             <TextView
                 android:id="@+id/tv_pm"
-                style="@style/Text.Large"
+                style="@style/Base.Text.Large"
                 android:layout_marginStart="60dp"
                 android:layout_marginTop="14dp"
                 android:text="@string/pm"
@@ -271,11 +257,9 @@
 
             <TextView
                 android:id="@+id/tv_sunset"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="96dp"
+                style="@style/Base.Text.Small"
+                android:layout_marginStart="76dp"
                 android:text="@string/sunset"
-                android:textColor="@color/gray"
                 app:layout_constraintStart_toEndOf="@id/tv_sunr"
                 app:layout_constraintTop_toBottomOf="@id/tv_pm" />
 
@@ -291,7 +275,7 @@
 
             <TextView
                 android:id="@+id/tv_chas"
-                style="@style/Text.Large"
+                style="@style/Base.Text.Large"
                 android:layout_marginTop="14dp"
                 android:layout_marginEnd="30dp"
                 android:text="@string/therteen_h"
@@ -300,18 +284,15 @@
 
             <TextView
                 android:id="@+id/tv_day"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/Base.Text.Small"
                 android:layout_marginEnd="36dp"
                 android:text="@string/daytime"
-                android:textColor="@color/gray"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/tv_chas" />
 
             <ImageView
                 android:id="@+id/iv_cum"
-                android:layout_width="44dp"
-                android:layout_height="44dp"
+                style="@style/Image"
                 android:layout_marginStart="48dp"
                 android:layout_marginTop="24dp"
                 android:src="@drawable/cum"
@@ -320,7 +301,7 @@
 
             <TextView
                 android:id="@+id/tv_mon"
-                style="@style/Text.Large"
+                style="@style/Base.Text.Large"
                 android:layout_marginStart="40dp"
                 android:layout_marginTop="14dp"
                 android:text="@string/mon"
@@ -331,35 +312,35 @@
                 android:id="@+id/tv_cock"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="32dp"
+                android:layout_marginStart="25dp"
+                android:textColor="@color/gray"
                 android:layout_marginTop="10dp"
                 android:text="@string/therty_five"
-                android:textColor="@color/gray"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/tv_mon" />
 
             <TextView
                 android:id="@+id/tv_top"
-                style="@style/Text.arrow"
+                style="@style/Base.Text.Arrow"
                 android:text="@string/arrow_up"
-                android:textColor="@color/gray"
+               android:textColor="@color/gray"
                 app:layout_constraintStart_toEndOf="@id/tv_cock"
                 app:layout_constraintTop_toBottomOf="@id/tv_mon" />
 
             <TextView
                 android:id="@+id/tv_twentsix"
-                android:layout_width="wrap_content"
+               android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="6dp"
-                android:layout_marginTop="10dp"
                 android:text="@string/twenty_six"
                 android:textColor="@color/gray"
+                android:layout_marginTop="10dp"
                 app:layout_constraintStart_toEndOf="@id/tv_top"
                 app:layout_constraintTop_toBottomOf="@id/tv_mon" />
 
             <TextView
                 android:id="@+id/tv_sit"
-               style="@style/Text.Large"
+               style="@style/Base.Text.Arrow"
                 android:text="@string/arrow_dawn"
                 android:textColor="@color/gray"
                 app:layout_constraintStart_toEndOf="@id/tv_twentsix"
@@ -367,9 +348,8 @@
 
             <ImageView
                 android:id="@+id/iv_oblaka"
-                android:layout_width="42dp"
-                android:layout_height="42dp"
-                android:layout_marginTop="24dp"
+               style="@style/Image"
+                android:layout_marginTop="28dp"
                 android:src="@drawable/oblaka"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -377,7 +357,7 @@
 
             <TextView
                 android:id="@+id/tv_tue"
-                style="@style/Text.Large"
+                style="@style/Base.Text.Large"
                 android:layout_marginStart="60dp"
                 android:layout_marginTop="16dp"
                 android:text="@string/tue"
@@ -397,7 +377,7 @@
 
             <TextView
                 android:id="@+id/tv_two"
-                style="@style/Text.arrow"
+                style="@style/Base.Text.Arrow"
                 android:text="@string/arrow_up"
                 android:textColor="@color/gray"
                 app:layout_constraintStart_toEndOf="@id/tv_five"
@@ -416,7 +396,7 @@
 
             <TextView
                 android:id="@+id/tv_cit"
-                style="@style/Text.arrow"
+                style="@style/Base.Text.Arrow"
                 android:text="@string/arrow_dawn"
                 android:textColor="@color/gray"
                 app:layout_constraintStart_toEndOf="@id/tv_seven"
@@ -424,9 +404,8 @@
 
             <ImageView
                 android:id="@+id/iv_wave"
-                android:layout_width="42dp"
-                android:layout_height="42dp"
-                android:layout_marginTop="24dp"
+               style="@style/Image"
+                android:layout_marginTop="28dp"
                 android:layout_marginEnd="44dp"
                 android:src="@drawable/wawe"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -434,7 +413,7 @@
 
             <TextView
                 android:id="@+id/tv_wed"
-                style="@style/Text.Large"
+                style="@style/Base.Text.Large"
                 android:layout_marginTop="16dp"
                 android:layout_marginEnd="32dp"
                 android:text="@string/wed"
@@ -454,7 +433,7 @@
 
             <TextView
                 android:id="@+id/four2"
-                style="@style/Text.arrow"
+                style="@style/Base.Text.Arrow"
                 android:text="@string/arrow_up"
                 android:textColor="@color/gray"
                 app:layout_constraintStart_toEndOf="@id/tv_four"
@@ -472,7 +451,7 @@
                 app:layout_constraintTop_toBottomOf="@id/tv_wed" />
 
             <TextView
-                style="@style/Text.arrow"
+                style="@style/Base.Text.Arrow"
                 android:text="@string/arrow_dawn"
                 app:layout_constraintStart_toEndOf="@id/tv_nine"
                 app:layout_constraintTop_toBottomOf="@id/tv_wed" />
